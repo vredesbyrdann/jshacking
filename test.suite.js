@@ -1,9 +1,9 @@
-(function() {
+(function vredesbyrdann() {
 
 	var queue = [], paused = false, results;
 
 	this.test = function test(name, fn) {
-		queue.push(function() {
+		queue.push(function queueExec() {
 			results = document.getElementById("results");
 			results = assert(true, name).appendChild(document.createElement("ul"));
 			fn();
@@ -39,5 +39,5 @@
 		}
 		return li;
 	};
-	
+
 })();
