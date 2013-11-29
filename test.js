@@ -1,11 +1,4 @@
 window.onload = function() {
-	/*test("Async Unit Test...", function() {
-		pause();
-		setTimeout(function() {
-			assert(true, "I expect this to pass...");
-			resume();
-		}, 1000);
-	});*/
 	test("A Sync Unit Test", function() {
 		var hacker;
 		function printHacker() {
@@ -17,5 +10,12 @@ window.onload = function() {
 		}
 		printHacker();
 		assert(hacker === 5, "Hacker was logged 6 times...");
+	});
+	test("An async test...", function() {
+		pause();
+		setTimeout(function() {
+			assert(false, "I'll expect this to fail...");
+			resume();
+		}, 2000);
 	});
 };
