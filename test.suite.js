@@ -1,5 +1,8 @@
 (function vredesbyrdann() {
 
+	// Need more research on this...
+	// "use strict";
+
 	var queue = [], paused = false, results;
 
 	this.assert = function assert(bool, desc) {
