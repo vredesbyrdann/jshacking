@@ -1,0 +1,1 @@
+This application is called "Roominate"... So, should the first thing users see be rooms?

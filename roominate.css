@@ -3,19 +3,66 @@ body {
 }
 
 #primary-container {
-	box-shadow: 0 1px 1px #ccc;
-	height: 500px;
+	box-shadow: 0 1px 1px #ddd;
 	margin: 30px auto;
 	width: 900px;
 }
 
 #primary-header {
 	background-color: #01b5b8;
-	box-shadow: 0 1px 1px #ccc;
-	padding: 20px;
+	box-shadow: 0 1px 1px #ddd;
+	padding: 15px;
 }
 
 #primary-header h1 {
 	color: #fefefe;
 	font-size: 2em;
+}
+
+#primary-section {
+	padding-left: 35px;
+}
+
+.conference-room {
+	box-shadow: 0 1px 1px #ddd;
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	margin: 35px 15px;
+}
+
+.conference-room-header {
+	box-shadow: 0 1px 1px #ddd;
+	padding: 15px;
+}
+
+.conference-room-header h2 {
+	color: #01b5b8;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.room-image-container {
+	box-shadow: 0 1px 1px #ddd;
+	height: 150px;
+}
+
+.book-btn {
+	background-color: #01b5b8;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px #ddd;
+	color: #fefefe;
+	font-size: 1em;
+	padding: 10px 45px;
+}
+
+.book-btn:hover {
+	cursor: pointer;
+	background-color: #01b578;
+}
+
+
+
+#primary-footer {
+	margin-top: 30px;
 }
